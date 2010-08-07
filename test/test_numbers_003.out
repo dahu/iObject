@@ -1,0 +1,13 @@
+" test iObject Numbers
+
+-i
+j
++i
+j
+j k
+-j -k
+-jax
+axk
+axjax
+ax -k ax
+

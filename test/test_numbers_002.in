@@ -1,0 +1,9 @@
+" test iObject Numbers
+
+12345
+12345 12345
+12345ax
+ax12345
+ax12345ax
+ax 12345 ax
+

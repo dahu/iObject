@@ -1,0 +1,40 @@
+*iObject.txt*  Extra Text Objects for Vim
+
+                                                *iObject-authors*
+Author:  Barry Arthur <barry dot arthur at gmail dot com>
+
+License: Same terms as Vim itself (see |license|)
+
+INTRODUCTION                                    *iObject*
+
+iObject is an extra set of |text-objects| to further enhance this useful
+feature of Vim. The following text objects are provided by iObject:
+
+|iObject-Numbers|
+
+NUMBERS                                         *iObject-numbers*
+
+iObject provides two new text objects for manipulating Numbers (Integers):
+
+                                                *v_anumber*
+                                                *v_an*
+an			"a number". Selects the number under the cursor,
+			including possible leading -/+ characters.
+
+                                                *v_anumber*
+                                                *v_an*
+in			"inside a number". Selects the number under the
+			cursor, excluding possible leading -/+ characters.
+
+ISSUES                                          *iObject-issues*
+
+Clearly more text-objects are needed to justify being able to call this a
+plugin. Planned additional text objects include:
+
+- Floats
+- Dates
+- Elements (comma delimited parts of lists)
+
+Comments, suggestions, new ideas and contributions welcome.
+
+ vim:tw=78:ts=8:ft=help:norl:

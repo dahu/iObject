@@ -1,0 +1,15 @@
+iObject!
+
+Extra Text Objects for Vim
+
+Current Objects Include:
+
+* (n) Numbers (Integer only at this stage)
+
+Planned Objects:
+
+* (f) Floats
+* (d) Dates (?)
+* (e) Elements (comma separated parts of a list)
+
+Contributions, Suggestions and New Ideas Welcome
